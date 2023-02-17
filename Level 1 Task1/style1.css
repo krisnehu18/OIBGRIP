@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(241, 241, 12);
+    line-height: 1.6;
+}
+
+#screen {
+    background-image: url("us.jfif");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#screen h1 {
+    font-size: 60px;
+    line-height: 1.6;
+    color: rgb(126, 2, 2);
+}
+
+#screen .button {
+    font-size: 25px;
+    text-decoration: solid;
+    color: rgb(30, 9, 1);
+    border: rgb(30, 9, 1) 2px solid;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#screen p {
+    font-size: 30px;
+    letter-spacing: 0.6;
+    color: rgb(3, 3, 81);
+    padding: 20px;
+    font-weight: bolder;
+}
+
+#screen .button:hover {
+    background-color: rgb(30, 9, 1);
+    color: white;
+}
+
+#text1 {
+    font-size: 25px;
+    background: rgba(200, 91, 91, 0.817);
+    color: white;
+    padding: 20px;
+}
+
+#text2 {
+    font-size: 25px;
+    background: rgb(217, 214, 219);
+    color: rgba(209, 123, 123, 0.996);
+    padding: 20px;
+}
+
+#text3 {
+    display: flex
+}
+
+#text3 .div {
+    padding: 20px;
+}
+
+#text3 .box-1,
+#text3 .box-3 {
+    background: rgba(209, 123, 123, 0.996);
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+}
+
+#text3 .box-2 {
+    background-color: rgba(229, 211, 240, 0.822);
+    color: rgba(209, 123, 123, 0.996);
+    font-size: 25px;
+    font-style: italic;
+}

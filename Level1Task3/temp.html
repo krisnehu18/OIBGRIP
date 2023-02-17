@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        
+        .container {
+            display: inline-block;
+            margin: 20px;
+        }
+        
+        input[type="text"],
+        select {
+            padding: 10px;
+            font-size: 18px;
+            margin: 10px;
+        }
+        
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin: 10px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        #output {
+            font-size: 18px;
+            margin: 20px;
+        }
+    </style>
+    <meta charset="utf-8">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Temperature Converter</h1>
+    <div class="container"><input type="text" id="input-temp" placeholder="Enter temperature..."><select id="from-unit"><option value="celsius">Celsius</option><option value="fahrenheit">Fahrenheit</option><option value="kelvin">Kelvin</option></select>
+        <p>to</p><select id="to-unit"><option value="celsius">Celsius</option><option value="fahrenheit">Fahrenheit</option><option value="kelvin">Kelvin</option></select><button id="convert-button">Convert</button>
+        <p id="output"></p>
+</body>
+
+</html>
